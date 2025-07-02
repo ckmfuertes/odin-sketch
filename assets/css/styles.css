@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px solid red; */
 }
 
 body {
@@ -138,17 +137,4 @@ main {
 .active {
   border: 2px solid #d39a60;
   color: #d39a60;
-}
-
-@media print {
-  body * {
-    visibility: hidden;
-  }
-
-  .canvas {
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
 }
